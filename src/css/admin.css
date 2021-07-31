@@ -1,0 +1,210 @@
+@import url(../Fonts/Lato/Lato/latofonts.css);
+@import url(../Fonts/WebFonts/style.css);
+body {
+  background-color: #888888;
+  font: 13px/20px normal Helvetica, Arial, sans-serif;
+  padding: 10px 10px;
+  margin: 0; }
+
+.page__controller {
+  height: 100vh;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 0; }
+.page__header {
+  position: relative;
+  top: 0rem;
+  left: 0rem;
+  height: 10vh;
+  width: 100%;
+  background-color: #1E2832;
+  padding: 15px 10px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+  z-index: 10; }
+  .page__header_content {
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    height: 6vh;
+    width: 100%; }
+    .page__header_content-btnMenu {
+      position: relative;
+      top: -1rem;
+      left: 0.8rem;
+      width: 57px;
+      height: 30px;
+      padding: 7px 15px;
+      border-radius: 30px;
+      background-color: #16abf0;
+      border: 1px solid #36baf7;
+      outline: none !important; }
+      .page__header_content-btnMenu .icon-bar {
+        height: 2px;
+        border-radius: 1.5px;
+        background-color: #fff;
+        display: block; }
+      .page__header_content-btnMenu .icon-bar:nth-child(1) {
+        width: 26px;
+        margin-top: 0px !important; }
+      .page__header_content-btnMenu .icon-bar:nth-child(2) {
+        width: 18px;
+        margin-top: 4px;
+        transition: width 0.2s ease 0.1s; }
+      .page__header_content-btnMenu .icon-bar:nth-child(3) {
+        width: 10px;
+        margin-top: 4px;
+        transition: width 0.2s ease 0.2s; }
+      .page__header_content-btnMenu:hover {
+        background-color: #40bef8; }
+        .page__header_content-btnMenu:hover .icon-bar:nth-child(2) {
+          width: 26px; }
+        .page__header_content-btnMenu:hover .icon-bar:nth-child(3) {
+          width: 26px; }
+    .page__header_content h2 {
+      position: relative;
+      top: -0.6rem;
+      left: 24rem;
+      display: inline;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-weight: normal;
+      font-size: 16px;
+      color: #b9b9b9; }
+    .page__header_content h3 {
+      position: relative;
+      top: -0.6rem;
+      left: 22rem;
+      display: inline;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-weight: normal;
+      font-size: 16px;
+      color: #b9b9b9; }
+    .page__header_content h4 {
+      position: relative;
+      top: -0.6rem;
+      left: 12rem;
+      display: inline;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-weight: normal;
+      font-size: 16px;
+      color: #b9b9b9;
+      padding-left: 2.5rem;
+      border-left: 2px solid #b9b9b9; }
+      .page__header_content h4 span {
+        color: #f16161; }
+    .page__header_content h5 {
+      position: relative;
+      top: -0.6rem;
+      left: 10rem;
+      display: inline;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-weight: normal;
+      font-size: 16px;
+      color: #b9b9b9; }
+    .page__header_content .image__holder {
+      display: inline-block;
+      position: relative;
+      top: -0.9rem;
+      left: 49rem; }
+    .page__header_content .image__admin {
+      height: 55px;
+      width: 55px; }
+    .page__header_content .icons {
+      position: relative;
+      top: -0.7rem;
+      left: 25rem;
+      display: inline-block;
+      font-size: 13px; }
+      .page__header_content .icons ul {
+        list-style: none; }
+        .page__header_content .icons ul li {
+          text-decoration: none;
+          display: inline-block;
+          padding-right: 2px;
+          text-decoration: none;
+          background-color: #16abf0;
+          border: 1px solid #36baf7;
+          border-radius: 25px; }
+          .page__header_content .icons ul li a {
+            color: #fff; }
+            .page__header_content .icons ul li a .fa:hover {
+              transform: scale(1.2); }
+            .page__header_content .icons ul li a .fa-gear {
+              padding: 5px 11px; }
+            .page__header_content .icons ul li a .fa-question {
+              padding: 5px 12px; }
+            .page__header_content .icons ul li a .fa-bell {
+              padding: 5px 11px;
+              backface-visibility: hidden; }
+              .page__header_content .icons ul li a .fa-bell:hover {
+                animation: bell 0.2s ease 0.2s infinite; }
+@keyframes bell {
+  from {
+    transform: rotate(-10deg); }
+  to {
+    transform: rotate(10deg); } }
+            .page__header_content .icons ul li a .badge {
+              position: absolute;
+              top: -0.8rem;
+              right: -0.5rem;
+              font-size: 10px;
+              background-color: #f16161; }
+
+.side__nav {
+  width: 300px;
+  height: 90vh;
+  background-color: #303b44;
+  border-bottom-left-radius: 3px;
+  box-shadow: 1px -1px 6px rgba(0, 0, 0, 0.5); }
+  .side__nav .logo {
+    width: 100%;
+    padding-top: 20px; }
+    .side__nav .logo__brand {
+      position: relative;
+      left: 4.5rem;
+      font-size: 40px;
+      font-family: 'LatoWeb';
+      font-weight: bold;
+      font-style: italic;
+      padding: 8px 15px;
+      width: 205px;
+      color: #fff;
+      background-color: #09D6DA;
+      text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+      border-top-left-radius: 45px;
+      border-bottom-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 45px;
+      box-shadow: -2px 3px 5px rgba(255, 255, 255, 0.4); }
+      .side__nav .logo__brand::after {
+        content: "Serve";
+        font-family: "Billaneiva";
+        font-size: 65px;
+        font-style: italic;
+        font-weight: bolder;
+        padding-left: 5px;
+        letter-spacing: 0.1rem;
+        color: #f1417f;
+        text-shadow: 1px 1px 4px #fff; }
+  .side__nav .btn__holder {
+    margin-top: 50px; }
+    .side__nav .btn__holder .btn {
+      height: 40px;
+      width: 200px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      font-size: 15px;
+      border: 1px solid #36baf7;
+      color: #fff; }
+      .side__nav .btn__holder .btn__accounts {
+        background-color: #DD4B39;
+        border: 1px solid #e75a48; }
+
+/*# sourceMappingURL=admin.css.map */

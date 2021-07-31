@@ -1,0 +1,904 @@
+@import "../../assets/Fonts/Lato/Lato/latofonts.css";
+@import "../../assets/Fonts/WebFonts/style.css";
+
+.transaction{
+    margin-top: 180px;
+
+    .transact{
+        margin-top: 0px;
+        height: 40px;
+        width: 400px;
+        border: 1px solid #03738080;
+        padding: 2px 2px;
+        border-radius: 3px;
+
+        select{
+            border: none;
+            font-size: 15px;
+            border-radius: 0px;
+            outline: none !important;
+            letter-spacing: 0.06rem;
+            -webkit-box-shadow: none;
+                    box-shadow: none;
+
+            option{
+                height: 50px !important;
+                padding-top: 0.2rem;
+            }
+        }
+    }
+
+    form{
+        margin-bottom: 10px;
+
+        .col_md-8{
+            margin-top: 30px;
+
+            .holder__input{
+                margin-top: 10px;
+                height: 40px;
+                border: 1px solid #03738080;
+                padding: 2px 2px;
+                border-radius: 3px;
+
+                .input{
+                    border: none;
+                    font-size: 15px;
+                    border-radius: 0px;
+                    background-color: #fff;
+                    outline: none !important;
+                    -webkit-box-shadow: none;
+                            box-shadow: none;
+                }
+            }
+
+            .noted__checkbox{
+                margin-top: 100px;
+
+                h4{
+                    margin-top: 40px;
+                }
+
+                p{
+                    padding-top: 0px;
+                    &::before{
+                        content: 'Director, ';
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .btn__borrow{
+                margin-top: 40px;
+                background-color: #036bda;
+                color: #fff;
+                font-weight: bold;
+                font-size: 13px;
+                border-radius: 3px;
+                border: 1px solid #036ddf;
+                padding: 9px 20px;
+                text-decoration: none;
+                height: 38px;
+                margin-bottom: 20px;
+                outline: none;
+                display: inline-block;
+
+                &:hover{
+                    text-decoration: none;
+                    background-color: #007BFF;
+                }
+            }
+            
+            p{
+                padding-top: 40px;
+            }
+        }
+
+        .row_br{
+            margin-top: 40px;
+
+            .holder__input{
+                margin-top: 0px;
+                height: 40px;
+                border: 1px solid #03738080;
+                padding: 2px 2px;
+                border-radius: 3px;
+
+                .input{
+                    border: none;
+                    font-size: 15px;
+                    border-radius: 0px;
+                    outline: none !important;
+                    -webkit-box-shadow: none;
+                            box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+.modal{
+
+    .modal-dialog{
+
+        .modal-content{
+            
+            .modal-header{
+
+                h4{
+                    font-family: 'LatoWeb';
+                }
+            }
+
+            .modal-body{
+                padding: 20px 50px;
+
+                .email__holder{
+                    margin-top: 10px;
+                    height: 40px;
+                    border: 1px solid #03738080;
+                    padding: 2px 42px 2px 0px;
+                    border-radius: 3px;
+        
+                    .email__input{
+                        border: none;
+                        border-radius: 0px;
+                        outline: none !important;
+                        -webkit-box-shadow: none;
+                                box-shadow: none;
+                        border-right: 1px solid  #03738080;
+                    }
+        
+                    .fa-id-card{
+                        position: relative;
+                        top: -2.5rem;
+                        right: -2.8rem;
+                        font-size: 15px;
+                        font-weight: 100;
+                        color: #05818f;
+                        float: right;
+                    }
+                }
+
+                .password__holder{
+                    margin-top: 10px;
+                    height: 40px;
+                    border: 1px solid #03738080; 
+                    padding: 2px 42px 2px 0px;
+                    border-radius: 3px;
+        
+                    .password__input{
+                        border: none;
+                        border-radius: 0px;
+                        outline: none !important;
+                        -webkit-box-shadow: none;
+                                box-shadow: none;
+                        border-right: 1px solid #03738080;
+        
+                    }
+        
+                    .fa-key{
+                        position: relative;
+                        top: -2.5rem;
+                        right: -2.9rem;
+                        font-size: 16px;
+                        font-weight: 100;
+                        color: #05818f;
+                        float: right;
+                    }
+                }
+            }
+            
+            .modal-footer{
+
+                .btn{
+                    font-family: 'LatoWeb';
+                    border-radius: 3px;
+                }
+
+                .btn_dismiss{
+                    font-weight: bold;
+                    font-size: 13px;
+                    padding: 10px 20px;
+                    height: 38px;
+                    letter-spacing: 0.1rem;
+                }
+
+                .btn_save{
+                    margin-left: 0px;
+                    background-color: #036bda;
+                    border: 1px solid #036ddf;
+                    font-weight: bold;
+                    font-size: 13px;
+                    padding: 10px 20px;
+                    height: 38px;
+                    letter-spacing: 0.1rem;
+
+                    &:hover{
+                        background-color: #007BFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.return{
+    margin-top: 160px;
+    margin-bottom: 100px;
+
+    #info{
+        border-bottom: 1px solid #c4c2c2;
+    }
+
+    #borrower_name{
+        font-size: 17px;
+        font-family: 'LatoWeb';
+        padding-bottom: 2px !important;
+
+        span{
+            color: #007BFF;
+            margin-left: 10px;
+        }
+    }
+
+    #borrower_dept{
+        font-size: 17px;
+        font-family: 'LatoWeb';
+        padding-bottom: 2px !important;
+
+        span{
+            color: #007BFF;
+            margin-left: 26px;
+        }
+    }
+
+    #borrower_contact{
+        font-size: 17px;
+        font-family: 'LatoWeb';
+        padding-bottom: 20px !important;
+
+        span{
+            color: #007BFF;
+            margin-left: 69px;
+        }
+    }
+
+    #date{
+        margin-top: 30px;
+    }
+
+    .date{
+        margin-top: 0px;
+        height: 40px;
+        width: 250px;
+        border: 1px solid #03738080;
+        padding: 2px 2px;
+        border-radius: 3px;
+        margin-bottom: 30px;
+
+        input{
+            border: none;
+            font-size: 15px;
+            border-radius: 0px;
+            outline: none !important;
+            letter-spacing: 0.06rem;
+            -webkit-box-shadow: none;
+                    box-shadow: none;
+
+            option{
+                height: 50px !important;
+                padding-top: 0.2rem;
+            }
+        }
+    }
+
+    .dataTables_length{
+        margin-left: 10px;
+        
+        select{
+            border: 1px solid #666 !important;
+            height: 30px;
+            border-radius: 3px;
+        }
+    }
+
+    .dataTables_filter{
+
+        input{
+            border: 1px solid #666 !important;
+            height: 30px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: 3px;
+        }
+    }
+
+    table{
+
+        thead, tfoot{
+            background-color: #232231;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.02rem;
+            font-size: 12px;
+            font-family: 'LatoWeb';
+        }
+
+        tbody{
+            font-family: 'LatoWeb';
+
+            tr{
+
+                td{
+
+                    .btn__return{
+                        background-color: #df8609;
+                        text-transform: uppercase;
+                        letter-spacing: 0.01rem;
+                        font-weight: bold;
+
+                        &:hover{
+                            background-color: #f1910a;
+                        }
+                    }
+
+                    .btn__cancel{
+                        background-color: #b8221d;
+                        text-transform: uppercase;
+                        letter-spacing: 0.01rem;
+                        font-weight: bold;
+                        margin-left: 0px;
+
+                        &:hover{
+                            background-color: #ce2823;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+
+    p{
+        margin-top: 30px;
+    }
+}
+
+.pending{
+    margin-top: 180px;
+
+    .month_year{
+        margin-top: 0px;
+        margin-bottom: 30px;
+        height: 40px;
+        border: 1px solid #03738080;
+        padding: 2px 2px;
+        border-radius: 3px;
+
+        select{
+            border: none;
+            font-size: 15px;
+            border-radius: 0px;
+            outline: none !important;
+            letter-spacing: 0.06rem;
+            -webkit-box-shadow: none;
+                    box-shadow: none;
+
+            option{
+                height: 50px !important;
+                padding-top: 0.2rem;
+            }
+        }
+    }
+
+    .row{
+
+        .col-md-12{
+            margin-bottom: 30px;
+
+            h4{
+                letter-spacing: 0.03rem;
+                font-weight: bold;
+                font-family: 'LatoWeb';
+                color: #0071eb;
+            }
+
+            .dataTables_length{
+
+                select{
+                    border: 1px solid #666 !important;
+                    height: 30px;
+                    border-radius: 3px;
+                }
+            }
+        
+            .dataTables_filter{
+        
+                input{
+                    border: 1px solid #666 !important;
+                    height: 30px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    border-radius: 3px;
+                }
+            }
+        
+            table{
+        
+                thead, tfoot{
+                    background-color: #232231;
+                    color: #fff;
+                    text-transform: uppercase;
+                    letter-spacing: 0.02rem;
+                    font-size: 12px;
+                    font-family: 'LatoWeb';
+                }
+        
+                tbody{
+                    font-family: 'LatoWeb';
+        
+                    tr{
+        
+                        td{
+        
+                            .btn__approve{
+                                background-color: #df8609;
+                                text-transform: uppercase;
+                                letter-spacing: 0.01rem;
+                                font-weight: bold;
+        
+                                &:hover{
+                                    background-color: #f1910a;
+                                }
+                            }
+        
+                            .btn__cancel{
+                                background-color: #b8221d;
+                                text-transform: uppercase;
+                                letter-spacing: 0.01rem;
+                                font-weight: bold;
+                                margin-left: 0px;
+        
+                                &:hover{
+                                    background-color: #ce2823;
+                                }
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    }
+}
+
+.main__page{
+    margin-top: 180px;
+
+    .row{
+
+        .col-md-12{
+            margin-bottom: 30px;
+
+            h4{
+                letter-spacing: 0.03rem;
+                font-weight: bold;
+                font-family: 'LatoWeb';
+                color: #0071eb;
+            }
+
+            .dataTables_length{
+                
+                select{
+                    border: 1px solid #666 !important;
+                    height: 30px;
+                    border-radius: 3px;
+                }
+            }
+
+            .dataTables_filter{
+
+                input{
+                    border: 1px solid #666 !important;
+                    height: 30px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    border-radius: 3px;
+                }
+            }
+
+            table{
+
+                thead, tfoot{
+                    background-color: #27283D;
+                    color: #fff;
+                    font-family: 'LatoWeb';
+                    letter-spacing: 0.02rem;
+                    text-transform: uppercase;
+                }
+
+                tbody{
+                    font-family: 'LatoWeb';
+                }
+            }
+        }
+    }
+}
+
+.register_header{
+    margin-top: 126px;
+    border-bottom: 1px solid #c4c4c4;
+    background-color: #f3f3f3;
+    padding-top: 10px;
+
+    ul{
+
+        li{
+            list-style: none;
+            display: inline-block;
+
+            a{
+                font-family: 'LatoWeb';
+                font-size: 16px;
+                color: #686565;
+
+                &:hover{
+                    border-radius: 3px;
+                    -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+                            box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+    }
+}
+
+.register_auth{
+    margin-top: 80px;
+
+    .belt{
+        padding-bottom: 60px;
+    }
+
+    .login_form{
+        padding: 5px 10px;
+        height: 230px;
+
+        .email__holder{
+            margin-top: 10px;
+            height: 40px;
+            border: 1px solid #03738080;
+            padding: 2px 42px 2px 0px;
+            border-radius: 3px;
+
+            .email__input{
+                border: none;
+                border-radius: 0px;
+                outline: none !important;
+                -webkit-box-shadow: none;
+                        box-shadow: none;
+                border-right: 1px solid  #03738080;
+            }
+
+            .fa-id-card{
+                position: relative;
+                top: -2.5rem;
+                right: -2.8rem;
+                font-size: 15px;
+                font-weight: 100;
+                color: #05818f;
+                float: right;
+            }
+        }
+
+        .name__holder{
+            margin-top: 10px;
+            height: 40px;
+            border: 1px solid #03738080;
+            padding: 2px 42px 2px 0px;
+            border-radius: 3px;
+
+            .name__input{
+                border: none;
+                border-radius: 0px;
+                outline: none !important;
+                -webkit-box-shadow: none;
+                        box-shadow: none;
+                border-right: 1px solid  #03738080;
+            }
+
+            .fa-user-circle{
+                position: relative;
+                top: -2.5rem;
+                right: -2.8rem;
+                font-size: 15px;
+                font-weight: 100;
+                color: #05818f;
+                float: right;
+            }
+        }
+
+        .position__holder{
+            margin-top: 10px;
+            height: 40px;
+            border: 1px solid #03738080;
+            padding: 2px 42px 2px 0px;
+            border-radius: 3px;
+
+            .position__select{
+                border: none;
+                border-radius: 0px;
+                outline: none !important;
+                -webkit-box-shadow: none;
+                        box-shadow: none;
+                border-right: 1px solid  #03738080;
+            }
+
+            .fa-user{
+                position: relative;
+                top: -2.5rem;
+                right: -2.8rem;
+                font-size: 15px;
+                font-weight: 100;
+                color: #05818f;
+                float: right;
+            }
+        }
+
+        .password__holder{
+            margin-top: 10px;
+            height: 40px;
+            border: 1px solid #03738080; 
+            padding: 2px 42px 2px 0px;
+            border-radius: 3px;
+
+            .password__input{
+                border: none;
+                border-radius: 0px;
+                outline: none !important;
+                -webkit-box-shadow: none;
+                        box-shadow: none;
+                border-right: 1px solid #03738080;
+
+            }
+
+            .fa-key{
+                position: relative;
+                top: -2.5rem;
+                right: -2.9rem;
+                font-size: 16px;
+                font-weight: 100;
+                color: #05818f;
+                float: right;
+            }
+        }
+
+        .btn__register{
+            margin-top: 20px;
+            background-color: #be36b3;
+            color: #fff;
+            font-weight: bold;
+            font-size: 13px;
+            border-radius: 3px;
+            border: 1px solid #e042d3;
+            padding: 9px 20px;
+            text-decoration: none;
+            height: 38px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            outline: none;
+            display: inline-block;
+
+            &:hover{
+                text-decoration: none;
+                background-color: #d13ec5;
+            }
+
+            .fa-lock{
+                font-size: 14px;
+            }
+        }
+
+        .forgot a{
+            text-decoration: none;
+            color: #646666;
+            font-size: 15px;
+            text-align: center;
+
+            &:hover{
+                color: #068492;
+            }
+        }
+    }
+}
+
+.details{
+    margin-top: 180px;
+
+    .label__top{
+        border: 1px solid #cfcfcf;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+                box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+
+        .labeled{
+            border-bottom: 1px solid #cfcfcf;
+            padding: 10px 20px;
+
+            #transact_type{
+                margin-bottom: -5px !important;
+                color: #BD30B1;
+                text-transform: uppercase;
+                letter-spacing: 0.08rem;
+                font-family: 'LatoWeb';
+                font-weight: bold;
+            }
+
+            label{
+                margin-bottom: 0px;
+                font-size: 14px;
+                font-family: 'LatoWeb';
+
+                span{
+                    color: #007BFF;
+                }
+
+                #id{
+                    margin-left: 51px;
+                }
+                #name{
+                    margin-left: 90px;
+                }
+                #dept{
+                    margin-left: 96px;
+                }
+                #contact{
+                    margin-left: 66px;
+                }
+                #date_borrowed{
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .detailed{
+            padding: 20px 130px;
+
+            label{
+                margin-bottom: 5px;
+                font-size: 14px;
+                font-family: 'LatoWeb';
+
+                #date_to_return{
+                    margin-left: 10px;
+                }
+                #item_name{
+                    margin-left: 50px;
+                }
+                #code{
+                    margin-left: 39px;
+                }
+                #model{
+                    margin-left: 41px;
+                }
+                #quantity{
+                    margin-left: 59px;
+                }
+            }
+        }
+    }
+
+    #line_numbering{
+        position: relative;
+        top: 17rem;
+        left: -2.2rem;
+        font-size: 35px;
+        background-color: #DB4737;
+        color: #fff;
+        padding: 10px 11px;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+                box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+
+    }
+}
+
+.reports{
+    margin-top: 180px;
+
+    .month_year{
+        margin-top: 0px;
+        margin-bottom: 30px;
+        height: 40px;
+        border: 1px solid #03738080;
+        padding: 2px 2px;
+        border-radius: 3px;
+
+        select{
+            border: none;
+            font-size: 15px;
+            border-radius: 0px;
+            outline: none !important;
+            letter-spacing: 0.06rem;
+            -webkit-box-shadow: none;
+                    box-shadow: none;
+
+            option{
+                height: 50px !important;
+                padding-top: 0.2rem;
+            }
+        }
+    }
+
+    .col-md-12{
+
+        .dataTables_wrapper{
+
+            .dt-buttons{
+
+                .buttons-csv {
+                    background: #1B9E5F !important;
+                    border: 1px solid #117c48;
+                    color: #fff;
+                    margin-right: 0px;
+                }
+
+                .buttons-excel {
+                    background: #0ba8a0 !important;
+                    border: 1px solid #0a8882;
+                    color: #fff;
+                    margin-right: 0px;
+                }
+
+                .buttons-pdf {
+                    background: #F9225D !important;
+                    border: 1px solid #ce1949;
+                    color: #fff;
+                    margin-right: 0px;
+                }
+
+                .buttons-print {
+                    background: #3E3EFF !important;
+                    border: 1px solid #3131da;
+                    color: #fff;
+                }
+            }
+        }
+        
+        .dataTables_length{
+            margin-left: 10px;
+            
+            select{
+                border: 1px solid #666 !important;
+                height: 30px;
+                border-radius: 3px;
+            }
+        }
+
+        .dataTables_filter{
+
+            input{
+                border: 1px solid #666 !important;
+                height: 30px;
+                padding-left: 5px;
+                padding-right: 5px;
+                border-radius: 3px;
+            }
+        }
+    }
+
+    table{
+
+        thead, tfoot{
+            background-color: #232231;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.02rem;
+            font-size: 12px;
+            font-family: 'LatoWeb';
+        }
+
+        tbody{
+            font-family: 'LatoWeb';
+        }
+    }
+}

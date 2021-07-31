@@ -1,0 +1,587 @@
+@import url(../../assets/Fonts/Lato/Lato/latofonts.css);
+@import url(../../assets/Fonts/WebFonts/style.css);
+.transaction {
+  margin-top: 180px; }
+  .transaction .transact {
+    margin-top: 0px;
+    height: 40px;
+    width: 400px;
+    border: 1px solid #03738080;
+    padding: 2px 2px;
+    border-radius: 3px; }
+    .transaction .transact select {
+      border: none;
+      font-size: 15px;
+      border-radius: 0px;
+      outline: none !important;
+      letter-spacing: 0.06rem;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      .transaction .transact select option {
+        height: 50px !important;
+        padding-top: 0.2rem; }
+  .transaction form {
+    margin-bottom: 10px; }
+    .transaction form .col_md-8 {
+      margin-top: 30px; }
+      .transaction form .col_md-8 .holder__input {
+        margin-top: 10px;
+        height: 40px;
+        border: 1px solid #03738080;
+        padding: 2px 2px;
+        border-radius: 3px; }
+        .transaction form .col_md-8 .holder__input .input {
+          border: none;
+          font-size: 15px;
+          border-radius: 0px;
+          background-color: #fff;
+          outline: none !important;
+          -webkit-box-shadow: none;
+          box-shadow: none; }
+      .transaction form .col_md-8 .noted__checkbox {
+        margin-top: 100px; }
+        .transaction form .col_md-8 .noted__checkbox h4 {
+          margin-top: 40px; }
+        .transaction form .col_md-8 .noted__checkbox p {
+          padding-top: 0px; }
+          .transaction form .col_md-8 .noted__checkbox p::before {
+            content: 'Director, ';
+            font-weight: bold; }
+      .transaction form .col_md-8 .btn__borrow {
+        margin-top: 40px;
+        background-color: #036bda;
+        color: #fff;
+        font-weight: bold;
+        font-size: 13px;
+        border-radius: 3px;
+        border: 1px solid #036ddf;
+        padding: 9px 20px;
+        text-decoration: none;
+        height: 38px;
+        margin-bottom: 20px;
+        outline: none;
+        display: inline-block; }
+        .transaction form .col_md-8 .btn__borrow:hover {
+          text-decoration: none;
+          background-color: #007BFF; }
+      .transaction form .col_md-8 p {
+        padding-top: 40px; }
+    .transaction form .row_br {
+      margin-top: 40px; }
+      .transaction form .row_br .holder__input {
+        margin-top: 0px;
+        height: 40px;
+        border: 1px solid #03738080;
+        padding: 2px 2px;
+        border-radius: 3px; }
+        .transaction form .row_br .holder__input .input {
+          border: none;
+          font-size: 15px;
+          border-radius: 0px;
+          outline: none !important;
+          -webkit-box-shadow: none;
+          box-shadow: none; }
+
+.modal .modal-dialog .modal-content .modal-header h4 {
+  font-family: 'LatoWeb'; }
+.modal .modal-dialog .modal-content .modal-body {
+  padding: 20px 50px; }
+  .modal .modal-dialog .modal-content .modal-body .email__holder {
+    margin-top: 10px;
+    height: 40px;
+    border: 1px solid #03738080;
+    padding: 2px 42px 2px 0px;
+    border-radius: 3px; }
+    .modal .modal-dialog .modal-content .modal-body .email__holder .email__input {
+      border: none;
+      border-radius: 0px;
+      outline: none !important;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-right: 1px solid  #03738080; }
+    .modal .modal-dialog .modal-content .modal-body .email__holder .fa-id-card {
+      position: relative;
+      top: -2.5rem;
+      right: -2.8rem;
+      font-size: 15px;
+      font-weight: 100;
+      color: #05818f;
+      float: right; }
+  .modal .modal-dialog .modal-content .modal-body .password__holder {
+    margin-top: 10px;
+    height: 40px;
+    border: 1px solid #03738080;
+    padding: 2px 42px 2px 0px;
+    border-radius: 3px; }
+    .modal .modal-dialog .modal-content .modal-body .password__holder .password__input {
+      border: none;
+      border-radius: 0px;
+      outline: none !important;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-right: 1px solid #03738080; }
+    .modal .modal-dialog .modal-content .modal-body .password__holder .fa-key {
+      position: relative;
+      top: -2.5rem;
+      right: -2.9rem;
+      font-size: 16px;
+      font-weight: 100;
+      color: #05818f;
+      float: right; }
+.modal .modal-dialog .modal-content .modal-footer .btn {
+  font-family: 'LatoWeb';
+  border-radius: 3px; }
+.modal .modal-dialog .modal-content .modal-footer .btn_dismiss {
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px 20px;
+  height: 38px;
+  letter-spacing: 0.1rem; }
+.modal .modal-dialog .modal-content .modal-footer .btn_save {
+  margin-left: 0px;
+  background-color: #036bda;
+  border: 1px solid #036ddf;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px 20px;
+  height: 38px;
+  letter-spacing: 0.1rem; }
+  .modal .modal-dialog .modal-content .modal-footer .btn_save:hover {
+    background-color: #007BFF; }
+
+.return {
+  margin-top: 160px;
+  margin-bottom: 100px; }
+  .return #info {
+    border-bottom: 1px solid #c4c2c2; }
+  .return #borrower_name {
+    font-size: 17px;
+    font-family: 'LatoWeb';
+    padding-bottom: 2px !important; }
+    .return #borrower_name span {
+      color: #007BFF;
+      margin-left: 10px; }
+  .return #borrower_dept {
+    font-size: 17px;
+    font-family: 'LatoWeb';
+    padding-bottom: 2px !important; }
+    .return #borrower_dept span {
+      color: #007BFF;
+      margin-left: 26px; }
+  .return #borrower_contact {
+    font-size: 17px;
+    font-family: 'LatoWeb';
+    padding-bottom: 20px !important; }
+    .return #borrower_contact span {
+      color: #007BFF;
+      margin-left: 69px; }
+  .return #date {
+    margin-top: 30px; }
+  .return .date {
+    margin-top: 0px;
+    height: 40px;
+    width: 250px;
+    border: 1px solid #03738080;
+    padding: 2px 2px;
+    border-radius: 3px;
+    margin-bottom: 30px; }
+    .return .date input {
+      border: none;
+      font-size: 15px;
+      border-radius: 0px;
+      outline: none !important;
+      letter-spacing: 0.06rem;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      .return .date input option {
+        height: 50px !important;
+        padding-top: 0.2rem; }
+  .return .dataTables_length {
+    margin-left: 10px; }
+    .return .dataTables_length select {
+      border: 1px solid #666 !important;
+      height: 30px;
+      border-radius: 3px; }
+  .return .dataTables_filter input {
+    border: 1px solid #666 !important;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px; }
+  .return table thead, .return table tfoot {
+    background-color: #232231;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+    font-size: 12px;
+    font-family: 'LatoWeb'; }
+  .return table tbody {
+    font-family: 'LatoWeb'; }
+    .return table tbody tr td .btn__return {
+      background-color: #df8609;
+      text-transform: uppercase;
+      letter-spacing: 0.01rem;
+      font-weight: bold; }
+      .return table tbody tr td .btn__return:hover {
+        background-color: #f1910a; }
+    .return table tbody tr td .btn__cancel {
+      background-color: #b8221d;
+      text-transform: uppercase;
+      letter-spacing: 0.01rem;
+      font-weight: bold;
+      margin-left: 0px; }
+      .return table tbody tr td .btn__cancel:hover {
+        background-color: #ce2823; }
+  .return p {
+    margin-top: 30px; }
+
+.pending {
+  margin-top: 180px; }
+  .pending .month_year {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    height: 40px;
+    border: 1px solid #03738080;
+    padding: 2px 2px;
+    border-radius: 3px; }
+    .pending .month_year select {
+      border: none;
+      font-size: 15px;
+      border-radius: 0px;
+      outline: none !important;
+      letter-spacing: 0.06rem;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      .pending .month_year select option {
+        height: 50px !important;
+        padding-top: 0.2rem; }
+  .pending .row .col-md-12 {
+    margin-bottom: 30px; }
+    .pending .row .col-md-12 h4 {
+      letter-spacing: 0.03rem;
+      font-weight: bold;
+      font-family: 'LatoWeb';
+      color: #0071eb; }
+    .pending .row .col-md-12 .dataTables_length select {
+      border: 1px solid #666 !important;
+      height: 30px;
+      border-radius: 3px; }
+    .pending .row .col-md-12 .dataTables_filter input {
+      border: 1px solid #666 !important;
+      height: 30px;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 3px; }
+    .pending .row .col-md-12 table thead, .pending .row .col-md-12 table tfoot {
+      background-color: #232231;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 0.02rem;
+      font-size: 12px;
+      font-family: 'LatoWeb'; }
+    .pending .row .col-md-12 table tbody {
+      font-family: 'LatoWeb'; }
+      .pending .row .col-md-12 table tbody tr td .btn__approve {
+        background-color: #df8609;
+        text-transform: uppercase;
+        letter-spacing: 0.01rem;
+        font-weight: bold; }
+        .pending .row .col-md-12 table tbody tr td .btn__approve:hover {
+          background-color: #f1910a; }
+      .pending .row .col-md-12 table tbody tr td .btn__cancel {
+        background-color: #b8221d;
+        text-transform: uppercase;
+        letter-spacing: 0.01rem;
+        font-weight: bold;
+        margin-left: 0px; }
+        .pending .row .col-md-12 table tbody tr td .btn__cancel:hover {
+          background-color: #ce2823; }
+
+.main__page {
+  margin-top: 180px; }
+  .main__page .row .col-md-12 {
+    margin-bottom: 30px; }
+    .main__page .row .col-md-12 h4 {
+      letter-spacing: 0.03rem;
+      font-weight: bold;
+      font-family: 'LatoWeb';
+      color: #0071eb; }
+    .main__page .row .col-md-12 .dataTables_length select {
+      border: 1px solid #666 !important;
+      height: 30px;
+      border-radius: 3px; }
+    .main__page .row .col-md-12 .dataTables_filter input {
+      border: 1px solid #666 !important;
+      height: 30px;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 3px; }
+    .main__page .row .col-md-12 table thead, .main__page .row .col-md-12 table tfoot {
+      background-color: #27283D;
+      color: #fff;
+      font-family: 'LatoWeb';
+      letter-spacing: 0.02rem;
+      text-transform: uppercase; }
+    .main__page .row .col-md-12 table tbody {
+      font-family: 'LatoWeb'; }
+
+.register_header {
+  margin-top: 126px;
+  border-bottom: 1px solid #c4c4c4;
+  background-color: #f3f3f3;
+  padding-top: 10px; }
+  .register_header ul li {
+    list-style: none;
+    display: inline-block; }
+    .register_header ul li a {
+      font-family: 'LatoWeb';
+      font-size: 16px;
+      color: #686565; }
+      .register_header ul li a:hover {
+        border-radius: 3px;
+        -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3); }
+
+.register_auth {
+  margin-top: 80px; }
+  .register_auth .belt {
+    padding-bottom: 60px; }
+  .register_auth .login_form {
+    padding: 5px 10px;
+    height: 230px; }
+    .register_auth .login_form .email__holder {
+      margin-top: 10px;
+      height: 40px;
+      border: 1px solid #03738080;
+      padding: 2px 42px 2px 0px;
+      border-radius: 3px; }
+      .register_auth .login_form .email__holder .email__input {
+        border: none;
+        border-radius: 0px;
+        outline: none !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-right: 1px solid  #03738080; }
+      .register_auth .login_form .email__holder .fa-id-card {
+        position: relative;
+        top: -2.5rem;
+        right: -2.8rem;
+        font-size: 15px;
+        font-weight: 100;
+        color: #05818f;
+        float: right; }
+    .register_auth .login_form .name__holder {
+      margin-top: 10px;
+      height: 40px;
+      border: 1px solid #03738080;
+      padding: 2px 42px 2px 0px;
+      border-radius: 3px; }
+      .register_auth .login_form .name__holder .name__input {
+        border: none;
+        border-radius: 0px;
+        outline: none !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-right: 1px solid  #03738080; }
+      .register_auth .login_form .name__holder .fa-user-circle {
+        position: relative;
+        top: -2.5rem;
+        right: -2.8rem;
+        font-size: 15px;
+        font-weight: 100;
+        color: #05818f;
+        float: right; }
+    .register_auth .login_form .position__holder {
+      margin-top: 10px;
+      height: 40px;
+      border: 1px solid #03738080;
+      padding: 2px 42px 2px 0px;
+      border-radius: 3px; }
+      .register_auth .login_form .position__holder .position__select {
+        border: none;
+        border-radius: 0px;
+        outline: none !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-right: 1px solid  #03738080; }
+      .register_auth .login_form .position__holder .fa-user {
+        position: relative;
+        top: -2.5rem;
+        right: -2.8rem;
+        font-size: 15px;
+        font-weight: 100;
+        color: #05818f;
+        float: right; }
+    .register_auth .login_form .password__holder {
+      margin-top: 10px;
+      height: 40px;
+      border: 1px solid #03738080;
+      padding: 2px 42px 2px 0px;
+      border-radius: 3px; }
+      .register_auth .login_form .password__holder .password__input {
+        border: none;
+        border-radius: 0px;
+        outline: none !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-right: 1px solid #03738080; }
+      .register_auth .login_form .password__holder .fa-key {
+        position: relative;
+        top: -2.5rem;
+        right: -2.9rem;
+        font-size: 16px;
+        font-weight: 100;
+        color: #05818f;
+        float: right; }
+    .register_auth .login_form .btn__register {
+      margin-top: 20px;
+      background-color: #be36b3;
+      color: #fff;
+      font-weight: bold;
+      font-size: 13px;
+      border-radius: 3px;
+      border: 1px solid #e042d3;
+      padding: 9px 20px;
+      text-decoration: none;
+      height: 38px;
+      margin-left: 50px;
+      margin-bottom: 20px;
+      outline: none;
+      display: inline-block; }
+      .register_auth .login_form .btn__register:hover {
+        text-decoration: none;
+        background-color: #d13ec5; }
+      .register_auth .login_form .btn__register .fa-lock {
+        font-size: 14px; }
+    .register_auth .login_form .forgot a {
+      text-decoration: none;
+      color: #646666;
+      font-size: 15px;
+      text-align: center; }
+      .register_auth .login_form .forgot a:hover {
+        color: #068492; }
+
+.details {
+  margin-top: 180px; }
+  .details .label__top {
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3); }
+    .details .label__top .labeled {
+      border-bottom: 1px solid #cfcfcf;
+      padding: 10px 20px; }
+      .details .label__top .labeled #transact_type {
+        margin-bottom: -5px !important;
+        color: #BD30B1;
+        text-transform: uppercase;
+        letter-spacing: 0.08rem;
+        font-family: 'LatoWeb';
+        font-weight: bold; }
+      .details .label__top .labeled label {
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-family: 'LatoWeb'; }
+        .details .label__top .labeled label span {
+          color: #007BFF; }
+        .details .label__top .labeled label #id {
+          margin-left: 51px; }
+        .details .label__top .labeled label #name {
+          margin-left: 90px; }
+        .details .label__top .labeled label #dept {
+          margin-left: 96px; }
+        .details .label__top .labeled label #contact {
+          margin-left: 66px; }
+        .details .label__top .labeled label #date_borrowed {
+          margin-left: 10px; }
+    .details .label__top .detailed {
+      padding: 20px 130px; }
+      .details .label__top .detailed label {
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-family: 'LatoWeb'; }
+        .details .label__top .detailed label #date_to_return {
+          margin-left: 10px; }
+        .details .label__top .detailed label #item_name {
+          margin-left: 50px; }
+        .details .label__top .detailed label #code {
+          margin-left: 39px; }
+        .details .label__top .detailed label #model {
+          margin-left: 41px; }
+        .details .label__top .detailed label #quantity {
+          margin-left: 59px; }
+  .details #line_numbering {
+    position: relative;
+    top: 17rem;
+    left: -2.2rem;
+    font-size: 35px;
+    background-color: #DB4737;
+    color: #fff;
+    padding: 10px 11px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3); }
+
+.reports {
+  margin-top: 180px; }
+  .reports .month_year {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    height: 40px;
+    border: 1px solid #03738080;
+    padding: 2px 2px;
+    border-radius: 3px; }
+    .reports .month_year select {
+      border: none;
+      font-size: 15px;
+      border-radius: 0px;
+      outline: none !important;
+      letter-spacing: 0.06rem;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      .reports .month_year select option {
+        height: 50px !important;
+        padding-top: 0.2rem; }
+  .reports .col-md-12 .dataTables_wrapper .dt-buttons .buttons-csv {
+    background: #1B9E5F !important;
+    border: 1px solid #117c48;
+    color: #fff;
+    margin-right: 0px; }
+  .reports .col-md-12 .dataTables_wrapper .dt-buttons .buttons-excel {
+    background: #0ba8a0 !important;
+    border: 1px solid #0a8882;
+    color: #fff;
+    margin-right: 0px; }
+  .reports .col-md-12 .dataTables_wrapper .dt-buttons .buttons-pdf {
+    background: #F9225D !important;
+    border: 1px solid #ce1949;
+    color: #fff;
+    margin-right: 0px; }
+  .reports .col-md-12 .dataTables_wrapper .dt-buttons .buttons-print {
+    background: #3E3EFF !important;
+    border: 1px solid #3131da;
+    color: #fff; }
+  .reports .col-md-12 .dataTables_length {
+    margin-left: 10px; }
+    .reports .col-md-12 .dataTables_length select {
+      border: 1px solid #666 !important;
+      height: 30px;
+      border-radius: 3px; }
+  .reports .col-md-12 .dataTables_filter input {
+    border: 1px solid #666 !important;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px; }
+  .reports table thead, .reports table tfoot {
+    background-color: #232231;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+    font-size: 12px;
+    font-family: 'LatoWeb'; }
+  .reports table tbody {
+    font-family: 'LatoWeb'; }
+
+/*# sourceMappingURL=main_style.css.map */

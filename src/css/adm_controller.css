@@ -1,0 +1,715 @@
+@import url(../../assets/Fonts/Lato/Lato/latofonts.css);
+@import url(../../assets/Fonts/WebFonts/style.css);
+body {
+  background-color: #fff;
+  font: 13px/20px normal Helvetica, Arial, sans-serif;
+  padding: 15px 10px;
+  margin: 0; }
+
+.page {
+  height: 100vh;
+  background-color: #51526B;
+  border-radius: 5px;
+  padding: 0 0px;
+  width: 1315px; }
+  .page_tab {
+    margin: 3vh 1%;
+    height: 90vh;
+    background-color: #51526B; }
+    .page_tab_header {
+      height: 10vh;
+      background-color: #27283D;
+      border-bottom: 2px solid #67b4f0;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px; }
+      .page_tab_header .com_logo {
+        height: 50px;
+        width: 100px;
+        position: relative;
+        left: 3.5rem;
+        top: 1.5rem;
+        background-color: transparent;
+        display: inline-block; }
+        .page_tab_header .com_logo .bar_1 {
+          position: relative;
+          top: 1.5rem;
+          width: 26px;
+          height: 6px;
+          border-radius: 6px;
+          background-color: #fff;
+          transform: rotate(55deg); }
+        .page_tab_header .com_logo .bar_2 {
+          position: relative;
+          top: 1.2rem;
+          left: 1.4rem;
+          width: 28px;
+          height: 6px;
+          border-radius: 6px;
+          background-color: #F1417F;
+          transform: rotate(55deg); }
+        .page_tab_header .com_logo .bar_3 {
+          position: relative;
+          top: 0.4rem;
+          left: 2.6rem;
+          width: 31px;
+          height: 6px;
+          border-radius: 6px;
+          background-color: #F1417F;
+          transform: rotate(120deg); }
+        .page_tab_header .com_logo .bar_4 {
+          position: relative;
+          top: -0.6rem;
+          left: 4.2rem;
+          width: 24px;
+          height: 6px;
+          border-radius: 6px;
+          background-color: #F1417F;
+          transform: rotate(-130deg); }
+        .page_tab_header .com_logo .bar_5 {
+          position: relative;
+          top: 0.3rem;
+          left: 6.3rem;
+          width: 7px;
+          height: 7px;
+          border-radius: 7px;
+          background-color: #007BFF; }
+      .page_tab_header h5 {
+        position: relative;
+        top: -0.9rem;
+        left: 3rem;
+        color: #F1417F;
+        font-family: 'LatoWeb';
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        display: inline-block;
+        letter-spacing: 0.1rem;
+        z-index: 2; }
+        .page_tab_header h5::before {
+          content: 'we';
+          color: #fff;
+          font-family: 'LatoWeb';
+          font-style: italic;
+          font-weight: bold;
+          font-size: 20px;
+          letter-spacing: 0.07rem;
+          padding-right: 1px; }
+        .page_tab_header h5::after {
+          position: relative;
+          top: 0rem;
+          left: 0rem;
+          content: 'co';
+          font-family: 'Arial';
+          font-weight: bold;
+          font-size: 20px;
+          color: #007BFF;
+          letter-spacing: 0rem;
+          z-index: -1; }
+    .page_tab .scroll {
+      height: 100%; }
+    .page_tab .col-md-2 {
+      padding-left: 0 !important;
+      width: 22%; }
+    .page_tab-side {
+      position: relative;
+      top: -1rem;
+      left: 1.5rem;
+      width: 292px;
+      height: 84vh;
+      background-color: #181824; }
+      .page_tab-side h4 {
+        position: relative;
+        top: 4rem;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-style: oblique;
+        font-size: 18px;
+        font-weight: bolder;
+        color: #67b4f0; }
+      .page_tab-side .img {
+        position: relative;
+        top: 5.1rem;
+        left: 10.7rem;
+        height: 70px;
+        width: 70px;
+        background-image: url("../../assets/img/dev1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .page_tab-side h6 {
+        position: relative;
+        top: 5.1rem;
+        padding-top: 10px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        color: #e74ff5; }
+      .page_tab-side .social {
+        position: relative;
+        top: 5.2rem;
+        left: 4.5rem; }
+        .page_tab-side .social ul {
+          list-style: none; }
+          .page_tab-side .social ul li {
+            display: inline; }
+            .page_tab-side .social ul li a {
+              height: 15px;
+              width: 15px;
+              border-radius: 15px;
+              font-size: 16px;
+              background-color: #526975;
+              padding: 3px 3px; }
+            .page_tab-side .social ul li .fa-facebook {
+              padding: 3px 5px;
+              color: #68b7f3; }
+            .page_tab-side .social ul li .fa-envelope {
+              padding: 3px 2px;
+              color: #ec6553; }
+            .page_tab-side .social ul li .fa-instagram {
+              padding: 3px 3px;
+              color: #f284fc; }
+            .page_tab-side .social ul li .fa-twitter {
+              padding: 3px 2px;
+              color: #6dbffd; }
+      .page_tab-side .menu {
+        position: relative;
+        top: 7.1rem;
+        left: 0.1rem;
+        width: 250px; }
+        .page_tab-side .menu ul {
+          list-style: none; }
+          .page_tab-side .menu ul li {
+            padding: 4px 0px; }
+            .page_tab-side .menu ul li a {
+              text-decoration: none;
+              font-size: 12px;
+              font-weight: bold;
+              letter-spacing: 0.2px;
+              color: #7c7979; }
+              .page_tab-side .menu ul li a:hover {
+                color: #67b4f0; }
+              .page_tab-side .menu ul li a .inbox {
+                position: relative;
+                left: 13rem;
+                font-size: 10px;
+                color: #FF9900; }
+              .page_tab-side .menu ul li a .users {
+                position: relative;
+                left: 13rem;
+                font-size: 10px;
+                color: #eee; }
+              .page_tab-side .menu ul li a .clients {
+                position: relative;
+                left: 12.5rem;
+                font-size: 10px;
+                color: #dd5be9; }
+              .page_tab-side .menu ul li a .account {
+                position: relative;
+                left: 11rem;
+                font-size: 10px;
+                color: #30d3b0; }
+              .page_tab-side .menu ul li a .reg {
+                position: relative;
+                left: 12.1rem;
+                font-size: 10px;
+                color: #616feb; }
+              .page_tab-side .menu ul li a .sales {
+                position: relative;
+                left: 13rem;
+                font-size: 18px;
+                color: #fff; }
+              .page_tab-side .menu ul li a .bookings {
+                position: relative;
+                left: 11rem;
+                font-size: 10px;
+                color: #F1417F; }
+              .page_tab-side .menu ul li a .reviews {
+                position: relative;
+                left: 11.3rem;
+                font-size: 10px;
+                padding: 0px 3px;
+                color: #fff;
+                background-color: #42a0e7;
+                border-radius: 2px; }
+              .page_tab-side .menu ul li a .feed {
+                position: relative;
+                left: 10.5rem;
+                font-size: 10px;
+                padding: 0px 3px;
+                color: #fff;
+                background-color: #2bc740;
+                border-radius: 2px; }
+    .page_tab .dashboard {
+      padding: 0px;
+      height: 84vh;
+      width: 78%;
+      overflow: hidden; }
+      .page_tab .dashboard .dash {
+        height: 90vh;
+        width: 1011px;
+        overflow-y: clip;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        margin-bottom: 20px; }
+        .page_tab .dashboard .dash .top {
+          position: relative;
+          top: -1rem;
+          left: 3.3rem;
+          height: 70px;
+          padding-top: 0 14px;
+          background-color: #0288D1;
+          z-index: 0; }
+          .page_tab .dashboard .dash .top h5 {
+            position: relative;
+            top: 2.3rem;
+            left: 2rem;
+            color: #fff;
+            font-weight: normal;
+            font-size: 14px;
+            letter-spacing: 0.1rem; }
+          .page_tab .dashboard .dash .top h2 {
+            position: relative;
+            top: -0.4rem;
+            left: 13rem;
+            display: inline;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            font-weight: normal;
+            font-size: 14px;
+            color: #fff; }
+          .page_tab .dashboard .dash .top h3 {
+            position: relative;
+            top: -0.4rem;
+            left: 12rem;
+            display: inline;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            font-weight: normal;
+            font-size: 14px;
+            color: #fff;
+            padding-left: 20px;
+            border-left: 2px solid #fff; }
+          .page_tab .dashboard .dash .top .icons {
+            position: relative;
+            top: -0.8rem;
+            left: -7rem;
+            font-size: 15px;
+            float: right; }
+            .page_tab .dashboard .dash .top .icons ul {
+              list-style: none; }
+              .page_tab .dashboard .dash .top .icons ul li {
+                text-decoration: none;
+                display: inline-block;
+                padding-right: 2px;
+                text-decoration: none; }
+                .page_tab .dashboard .dash .top .icons ul li a {
+                  color: #fff; }
+                  .page_tab .dashboard .dash .top .icons ul li a .fa:hover {
+                    transform: scale(1.2); }
+                  .page_tab .dashboard .dash .top .icons ul li a .fa-power-off {
+                    padding: 5px 5px; }
+                  .page_tab .dashboard .dash .top .icons ul li a .fa-gear {
+                    padding: 5px 2px; }
+                  .page_tab .dashboard .dash .top .icons ul li a .fa-question {
+                    padding: 5px 2px; }
+                  .page_tab .dashboard .dash .top .icons ul li a .fa-bell {
+                    padding: 5px 2px;
+                    backface-visibility: hidden; }
+                    .page_tab .dashboard .dash .top .icons ul li a .fa-bell:hover {
+                      animation: bell 0.2s ease 0.2s infinite; }
+@keyframes bell {
+  from {
+    transform: rotate(-10deg); }
+  to {
+    transform: rotate(10deg); } }
+                  .page_tab .dashboard .dash .top .icons ul li a .badge {
+                    position: absolute;
+                    top: -0.7rem;
+                    right: -0.8rem;
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: #fff;
+                    background-color: #f57777; }
+        .page_tab .dashboard .dash .row_labeled {
+          position: relative;
+          top: 0rem;
+          left: 3rem;
+          padding: 0 14px;
+          height: 110px; }
+          .page_tab .dashboard .dash .row_labeled .col-card {
+            width: 310px;
+            padding: 0;
+            display: inline-block; }
+          .page_tab .dashboard .dash .row_labeled .card_1 {
+            position: relative;
+            top: 0rem;
+            left: 0rem;
+            height: 110px;
+            background-color: #eee;
+            border-radius: 3px; }
+          .page_tab .dashboard .dash .row_labeled .card_2 {
+            position: relative;
+            top: 0rem;
+            left: 1.3rem;
+            height: 110px;
+            background-color: #eee;
+            border-radius: 3px; }
+          .page_tab .dashboard .dash .row_labeled .card_3 {
+            position: relative;
+            top: 0rem;
+            left: 2.5rem;
+            height: 110px;
+            background-color: #eee;
+            border-radius: 3px; }
+        @media screen and (max-width: 992px) {
+          .page_tab .dashboard .dash .top {
+            left: 3rem; }
+          .page_tab .dashboard .dash .row_labeled {
+            top: 0rem;
+            padding: 0 14px; }
+            .page_tab .dashboard .dash .row_labeled .col-card {
+              width: 305px;
+              display: inline-block; }
+            .page_tab .dashboard .dash .row_labeled .card_2 {
+              left: 1rem; }
+            .page_tab .dashboard .dash .row_labeled .card_3 {
+              top: 0rem;
+              left: 2rem; } }
+        .page_tab .dashboard .dash .row_sales {
+          position: relative;
+          top: 1rem;
+          left: 2rem;
+          padding: 0 14px; }
+          .page_tab .dashboard .dash .row_sales .dash_sales {
+            position: relative;
+            top: 0rem;
+            left: 1rem;
+            width: 955px;
+            height: 300px;
+            background-color: #eee;
+            border-radius: 3px; }
+        .page_tab .dashboard .dash .row_team {
+          position: relative;
+          top: 2rem;
+          left: 3rem;
+          padding: 0 14px; }
+          .page_tab .dashboard .dash .row_team .col-team {
+            width: 310px;
+            padding: 0;
+            display: inline-block; }
+          .page_tab .dashboard .dash .row_team .team_1 {
+            position: relative;
+            top: 0%;
+            left: 0;
+            height: 110px;
+            background-color: #eee;
+            border-radius: 3px; }
+            .page_tab .dashboard .dash .row_team .team_1 .img {
+              position: relative;
+              top: 2rem;
+              left: 2.5rem;
+              height: 70px;
+              width: 70px;
+              background-image: url("../../assets/img/admin.jpg");
+              background-repeat: no-repeat;
+              background-size: cover; }
+            .page_tab .dashboard .dash .row_team .team_1 h5 {
+              position: absolute;
+              top: 1.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #F400B7;
+              font-weight: bold;
+              font-size: 13px; }
+            .page_tab .dashboard .dash .row_team .team_1 h3 {
+              position: absolute;
+              top: 2.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #919291;
+              font-weight: normal;
+              font-size: 13px;
+              padding-left: 0;
+              border-left: none; }
+            .page_tab .dashboard .dash .row_team .team_1 h4 {
+              position: absolute;
+              top: 5.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #919291;
+              font-weight: normal;
+              font-size: 13px; }
+          .page_tab .dashboard .dash .row_team .team_2 {
+            position: relative;
+            top: 0%;
+            left: 1.3rem;
+            height: 110px;
+            background-color: #eee;
+            border-radius: 3px; }
+            .page_tab .dashboard .dash .row_team .team_2 .img {
+              position: relative;
+              top: 2rem;
+              left: 2.5rem;
+              height: 70px;
+              width: 70px;
+              background-image: url("../../assets/img/dev1.jpg");
+              background-repeat: no-repeat;
+              background-size: cover; }
+            .page_tab .dashboard .dash .row_team .team_2 h5 {
+              position: absolute;
+              top: 1.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #0099FF;
+              font-weight: bold;
+              font-size: 13px; }
+            .page_tab .dashboard .dash .row_team .team_2 h3 {
+              position: absolute;
+              top: 2.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #919291;
+              font-weight: normal;
+              font-size: 13px;
+              padding-left: 0;
+              border-left: none; }
+            .page_tab .dashboard .dash .row_team .team_2 h4 {
+              position: absolute;
+              top: 5.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #919291;
+              font-weight: normal;
+              font-size: 13px; }
+          .page_tab .dashboard .dash .row_team .team_3 {
+            position: relative;
+            top: 0%;
+            left: 2.5rem;
+            height: 110px;
+            background-color: #eee;
+            border-radius: 3px; }
+            .page_tab .dashboard .dash .row_team .team_3 .img {
+              position: relative;
+              top: 2rem;
+              left: 2.5rem;
+              height: 70px;
+              width: 70px;
+              background-image: url("../../assets/img/img/282.jpg");
+              background-repeat: no-repeat;
+              background-size: cover; }
+            .page_tab .dashboard .dash .row_team .team_3 h5 {
+              position: absolute;
+              top: 1.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #DD4B39;
+              font-weight: bold;
+              font-size: 13px; }
+            .page_tab .dashboard .dash .row_team .team_3 h3 {
+              position: absolute;
+              top: 2.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #919291;
+              font-weight: normal;
+              font-size: 13px;
+              padding-left: 0;
+              border-left: none; }
+            .page_tab .dashboard .dash .row_team .team_3 h4 {
+              position: absolute;
+              top: 5.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #919291;
+              font-weight: normal;
+              font-size: 13px; }
+        .page_tab .dashboard .dash .row_team_2 {
+          position: relative;
+          top: 3rem;
+          left: 3rem;
+          padding: 0 14px; }
+          .page_tab .dashboard .dash .row_team_2 .col-team {
+            width: 310px;
+            padding: 0;
+            display: inline-block; }
+          .page_tab .dashboard .dash .row_team_2 .team_4 {
+            position: relative;
+            top: 0%;
+            left: 0rem;
+            height: 110px;
+            background-color: #eee;
+            border-radius: 3px; }
+            .page_tab .dashboard .dash .row_team_2 .team_4 .img {
+              position: relative;
+              top: 2rem;
+              left: 2.5rem;
+              height: 70px;
+              width: 70px;
+              background-image: url("../../assets/img/1.jpg");
+              background-repeat: no-repeat;
+              background-size: cover; }
+            .page_tab .dashboard .dash .row_team_2 .team_4 h5 {
+              position: absolute;
+              top: 1.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #ef42f5;
+              font-weight: bold;
+              font-size: 13px; }
+            .page_tab .dashboard .dash .row_team_2 .team_4 h3 {
+              position: absolute;
+              top: 2.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #919291;
+              font-weight: normal;
+              font-size: 13px;
+              padding-left: 0;
+              border-left: none; }
+            .page_tab .dashboard .dash .row_team_2 .team_4 h4 {
+              position: absolute;
+              top: 5.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #919291;
+              font-weight: normal;
+              font-size: 13px; }
+          .page_tab .dashboard .dash .row_team_2 .team_5 {
+            position: relative;
+            top: 0%;
+            left: 1.3rem;
+            height: 110px;
+            background-color: #eee;
+            border-radius: 3px; }
+            .page_tab .dashboard .dash .row_team_2 .team_5 .img {
+              position: relative;
+              top: 2rem;
+              left: 2.5rem;
+              height: 70px;
+              width: 70px;
+              background-image: url("../../assets/img/2.jpg");
+              background-repeat: no-repeat;
+              background-size: cover; }
+            .page_tab .dashboard .dash .row_team_2 .team_5 h5 {
+              position: absolute;
+              top: 1.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #1bbd9a;
+              font-weight: bold;
+              font-size: 13px; }
+            .page_tab .dashboard .dash .row_team_2 .team_5 h3 {
+              position: absolute;
+              top: 2.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #919291;
+              font-weight: normal;
+              font-size: 13px;
+              padding-left: 0;
+              border-left: none; }
+            .page_tab .dashboard .dash .row_team_2 .team_5 h4 {
+              position: absolute;
+              top: 5.8rem;
+              left: 10.5rem;
+              letter-spacing: 1.5px;
+              color: #919291;
+              font-weight: normal;
+              font-size: 13px; }
+        .page_tab .dashboard .dash .row_feed-review {
+          position: relative;
+          top: 4rem;
+          left: 3rem;
+          padding: 0 14px;
+          margin-bottom: 40px; }
+          .page_tab .dashboard .dash .row_feed-review .col-fed-rev_1 {
+            width: 530px;
+            padding: 0;
+            display: inline-block; }
+          .page_tab .dashboard .dash .row_feed-review .feedbacks {
+            position: relative;
+            top: 0rem;
+            left: 0;
+            height: 310px;
+            background-color: #eee;
+            border-radius: 3px;
+            padding-top: 0 !important; }
+            .page_tab .dashboard .dash .row_feed-review .feedbacks .top_fed {
+              position: relative;
+              top: 0;
+              left: 0;
+              height: 45px;
+              width: 530px;
+              padding: 5px 15px;
+              border-top-left-radius: 3px;
+              border-top-right-radius: 3px;
+              border-bottom: 1.1px solid #c3c4c5; }
+            .page_tab .dashboard .dash .row_feed-review .feedbacks h4 {
+              font-size: 13px;
+              letter-spacing: 1px;
+              color: #DF382C;
+              font-weight: bold; }
+          .page_tab .dashboard .dash .row_feed-review .col-fed-rev_2 {
+            width: 415px;
+            padding: 0;
+            display: inline-block; }
+          .page_tab .dashboard .dash .row_feed-review .reviews {
+            position: relative;
+            top: 0;
+            left: 1.2rem;
+            height: 310px;
+            background-color: #eee;
+            border-radius: 3px; }
+            .page_tab .dashboard .dash .row_feed-review .reviews .top_fed {
+              position: relative;
+              top: 0;
+              left: 0;
+              height: 45px;
+              width: 415px;
+              padding: 5px 15px;
+              border-top-left-radius: 3px;
+              border-top-right-radius: 3px;
+              border-bottom: 1.1px solid #c3c4c5; }
+            .page_tab .dashboard .dash .row_feed-review .reviews h4 {
+              font-size: 13px;
+              letter-spacing: 1px;
+              color: #007BFF;
+              font-weight: bold; }
+        .page_tab .dashboard .dash .footer {
+          position: relative;
+          top: 2rem;
+          left: 3rem;
+          height: 80px; }
+          .page_tab .dashboard .dash .footer h6 {
+            position: absolute;
+            bottom: 4.5rem;
+            left: 2rem;
+            font-size: 13px;
+            letter-spacing: 1px;
+            color: #84a7b9; }
+  @media screen and (max-width: 1200px) {
+    .page .page {
+      width: 1315px;
+      display: inline-block; }
+    .page .page_tab-side {
+      width: 292px; }
+    .page .dash {
+      width: 1011px; } }
+  @media screen and (max-width: 992px) {
+    .page .page {
+      width: 1315px !important;
+      display: inline-block;
+      overflow: hidden; }
+    .page .col-md-2 {
+      width: 292px !important; }
+    .page .col-md-10 {
+      position: absolute;
+      top: 10.4rem;
+      left: 300px;
+      width: 1011px !important;
+      padding: 0; } }
+
+/*# sourceMappingURL=adm_controller.css.map */
